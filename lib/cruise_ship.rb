@@ -4,9 +4,8 @@
  suite_c: "Alfred Tennyson",
  suite_d: "Charlie Chaplin",
  suite_e: "Crumpet the Elf"
- }
-
-<<<<<<< HEAD
+ } 
+ 
  def select_winner(passengers)
  end # add the code snippet here!
    winner = ""
@@ -18,7 +17,7 @@
    winner
 
 end
-=======
+
 def select_winner(passengers)
   winner = ""
   passengers.each do |suite, name|
@@ -29,4 +28,4 @@ def select_winner(passengers)
 
   winner
  end  # add the code snippet here
->>>>>>> e716ce5ec633cdad4f93661a5afe48062fec3c9c
+
